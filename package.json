@@ -1,0 +1,12 @@
+{
+  "name": "microservices-app",
+  "version": "1.0.0",
+  "description": "Microservices-based Todo Application",
+  "scripts": {
+    "install:all": "cd services/user-service && npm install && cd ../todo-service && npm install && cd ../email-service && npm install"
+  },
+  "keywords": ["microservices", "todo", "nodejs", "typescript", "mongodb", "rabbitmq"],
+  "author": "",
+  "license": "ISC"
+}
+
